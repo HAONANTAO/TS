@@ -1,9 +1,9 @@
 import { createRoot } from 'react-dom/client';
-
+import GuestList from './state/GuestList';
 const App = () => {
   return (
     <div>
-      <h1>hi world</h1>
+      <GuestList />
     </div>
   );
 };
