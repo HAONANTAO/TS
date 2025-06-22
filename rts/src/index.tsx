@@ -1,9 +1,10 @@
 import { createRoot } from 'react-dom/client';
-import GuestList from './state/GuestList';
+import UserSearch from './state/UserSearch';
+import EventComponents from "./events/EventComponents"
 const App = () => {
   return (
     <div>
-      <GuestList />
+      <EventComponents />
     </div>
   );
 };
